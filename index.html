@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>APOD - Nasa API</title>
+</head>
+
+<body>
+    <header class="cabecalho">  
+        <h1>APOD - Nasa API </h1><img src="assets/img/logo-nasa.png">       
+    </header>
+    <main>
+        <div id="conteudo">
+            <div class="container">
+                <div id="img-principal"><img id="img-prin" class="img-princ"></div>
+            </div>
+            <div class="container2">
+                <div id="container-description">
+                    <p id="titulo"></p>
+                    <br>
+                    <p id="direito"></p>
+                    <br>
+                    <p id="dataG"> </p>
+                    <br>
+                    <p id="descricao">
+                    <br>
+                    <p id="media"></p>
+                    <br>
+                </div>
+
+                <div id="nav-container">
+                    <button id="anterior">Anterior</button>
+                    <div id="div-input">
+                        <p>Digite Uma Data</p> 
+                        <input type="date" name="" id="data">
+                    </div>
+                        
+                    <button id="proximo">Proximo</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+        <script src="mvcCompleto.js"></script>
+       <!-- <script src="js/controllers/controller.js"></script>
+        <script src="js/model/model.js"></script>
+        <script src="js/views/view.js"></script>-->
+    </body>
+</html>
